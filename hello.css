@@ -1,9 +1,13 @@
+/*
+ * purple-color: #5f259f;
+ * pink-color: #f04e99;
+ */
 body {
   margin: 0;
   padding: 0;
   font: 1em/1.5em "Open Sans", sans-serif;
-  background-color: #d2232a;
-  color: white;
+  background-color: #5f259f;
+  color: #fff;
 }
 
 a {
@@ -81,7 +85,7 @@ main p {
 }
 
 .social li a:hover {
-  color: #00aeef;
+  color: #f04e99;
 }
 
 .social li a::before {
@@ -93,6 +97,7 @@ main p {
   font: normal 2rem/1em "FontAwesome";
 }
 
+.social li a[rel="github"]::before { content: '\f09b'; }
 .social li a[rel="home"]::before { content: '\f015'; }
 .social li a[rel="twitter"]::before { content: '\f099'; }
 
